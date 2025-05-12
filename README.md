@@ -30,7 +30,13 @@ git clone https://github.com/your-username/card-hotel-management.git
 cd card-hotel-management
 cp .env.example .env
 ```
-### 2. Run the container
+
+### 2. Run the project
+```bash 
+mpm run start
+```
+
+### 3. Run the container
 ```bash 
 docker-compose up --build
 ```
